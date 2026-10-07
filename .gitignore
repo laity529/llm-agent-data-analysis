@@ -1,0 +1,34 @@
+# ============ 密钥（最重要）============
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# ============ 虚拟环境（本项目 .venv 约 440MB，绝不能入库）============
+.venv/
+venv/
+env/
+
+# ============ 运行时产物 ============
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 用户上传的文件（保留仓库自带的示例 CSV 时用 ! 排除）
+uploads/*
+!uploads/*.csv
+
+# ============ 编辑器与系统 ============
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
