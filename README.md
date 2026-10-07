@@ -12,6 +12,12 @@
 
 ## 效果展示
 
+上传 CSV 后用自然语言提问，Agent 自主思考、调用工具、生成图表，全程无需写代码：
+
+![对话演示](assets/demo.gif)
+
+系统自动生成的图表示例：
+
 | 「各地区金牌数对比」 | 「球员荣誉统计」 |
 |---|---|
 | ![柱状图](charts/chart_bar_region.png) | ![直方图](charts/chart_hist_allstar_count.png) |
@@ -19,8 +25,6 @@
 | 「全明星次数分布」 |
 |---|
 | ![散点图](charts/chart_scatter_allstar.png) |
-
-> 建议再补一张对话过程的演示 GIF（assets/demo.gif），是这类项目最有说服力的展示。
 
 ## 快速开始
 
